@@ -65,7 +65,7 @@ speech_svm.fit(x_train, y_train)
 svmScore = speech_svm.score(x_test, y_test)
 
 # Report the performance using SVM score
-print('SVM score: ', svmScore)
+print('SVM score after PCA: ', svmScore)
 
 # Question 3: Apply LDA on Iris.csv -> reduce dimensionality to 2=k
 print("\nQUESTION 3: Apply LDA on Iris.csv -> reduce dimensionality to 2=k\n (see code, not much to display)")
